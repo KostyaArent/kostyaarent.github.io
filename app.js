@@ -17,11 +17,12 @@ let btn6 = document.getElementById("btn6");
 btn1.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
+		tg.sendData("Hello from tg web app!");
 	}
 	else {
 		tg.MainButton.setText("Вы выбрали товар 1!");
 		item = "1";
-		tg.sendData(item);
+		tg.sendData("Hello from tg web app!");
 		tg.MainButton.show();
 	}
 });
