@@ -82,7 +82,7 @@ btn6.addEventListener("click", function(){
 
 
 tg.onEvent("mainButtonClicked", function(){
-	tg.sendData(item);
+	tg.sendData("Hello from tg web app!");
 });
 
 let usercard = document.getElementById("usercard");
